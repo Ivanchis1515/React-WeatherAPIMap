@@ -1,0 +1,151 @@
+.fondo{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+body {
+  color:#17223b;
+  text-align: center;
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'sans-serif';
+}
+.clima {
+	max-width: 1040px;
+	width: 100%;
+	margin: 0 auto;	
+	padding: 0px;  
+}
+  
+.tarjeta {
+  margin-top: 20px;
+  display:flex;    
+  justify-content: center;
+}
+
+.informacion {
+  margin:  20px 5px;
+  border-radius: 20px;
+  position: absolute;    
+  width: 470px;
+  height: 570px;
+  background-color: #f2f4f6;    
+  box-shadow: 0px 0px 25px 1px rgba(50, 50, 50, 0.1);       
+}
+.ciudad {    
+  font-weight:300;
+  font-size:40px;
+  color: #6b778d;
+  bottom: 0;    
+  font-family: 'Arial Back'; 
+}
+.temperactual {
+  position: relative;
+  font-weight:300;
+  font-size:80px;
+  color:#17223b ;        
+  right: 150px;
+}
+.termometro{
+  position: relative;
+  width: 300px;
+  height: 100px;
+  bottom: 180px;
+  right: 80px;
+  margin: 5px 5px 0 0;    
+}
+.iconomovi{
+  position: relative;
+  width: 300px;
+  height: 300px;
+  bottom: 380px;
+  float:right;
+  margin: 5px 5px 0 0;    
+}
+.estado{
+  position: absolute;
+  color:#17223b ;        
+  right: 200px;
+  bottom: 110px;
+  font-family: 'Times New Roman', 'Times', 'serif';
+}
+.estadoicon{
+  position: absolute;
+  right: 170px;
+  bottom: 122px;
+}
+.estado2{
+  position: absolute;
+  color:#17223b ;        
+  right: 190px;
+  bottom: 90px;
+  font-family: 'Times New Roman', 'Times', 'serif';
+}
+.estadoicon2{
+  position: absolute;
+  right: 160px;
+  bottom: 100px;
+}
+.viento{
+  position: absolute;
+  color:#17223b ;        
+  right: 120px;
+  bottom: 130px;
+  font-family: 'Times New Roman';
+}
+.vientoicon{
+  position: absolute;
+  right: 90px;
+  bottom: 140px;
+}
+.humedad{
+  position: absolute;
+  color:#17223b ;        
+  right: 190px;
+  bottom: 70px;
+  font-family: 'Times New Roman', 'Times', 'serif';
+}
+.humedadicon{
+  position:absolute;
+  right: 160px;
+  bottom: 82px;
+}
+.parteabajo {
+  background-color: #16459d;     
+  color: #f0f8ff;                
+  position:relative;
+  bottom: 280px;
+  left: 0px;
+  border-radius: 0px 0px 20px 20px;        
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 170px;
+}
+.temp{
+  position: absolute;    
+  font-weight:300;
+  font-size:33px;
+  color: #f0f8ff;
+  right: 80px;
+  bottom: 130px; 
+  font-family: 'Chilanka';    
+}
+.temp-min{
+  position: absolute;    
+  font-weight:300;
+  font-size:28px;
+  color: aliceblue;
+  right: 160px;
+  bottom: 90px;
+  font-family: 'Chilanka'; 
+}
+.temp-max{    
+  position: absolute;
+  font-weight:300;
+  font-size:28px;
+  color: aliceblue;    
+  right: 155px;
+  bottom: 10px;
+  font-family: 'Chilanka'; 
+}
